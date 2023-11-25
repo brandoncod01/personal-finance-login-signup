@@ -1,0 +1,125 @@
+/*=============== AUTH ===============*/
+.auth{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*=============== BANNER ===============*/
+
+.auth__banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth__item{
+    margin-top: 1rem;
+}
+
+.auth__item i{
+    color: #FB8500;
+}
+
+/*=============== AUTH SECTION - FORM ===============*/
+.auth__section{
+    position: relative;
+    overflow: hidden;
+}
+
+.auth__selectSignup, .auth__selectLogin{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    font-size: var(--text-font-size);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.auth__selectLogin i, .auth__selectSignup i{
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+.auth__form{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 3rem;
+    transition: transform 1s;
+}
+
+.auth__input-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.auth__input-container i{
+    position: absolute;
+    left: 8%;
+    top: 28%;
+
+}
+
+.auth__input-container input{
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    padding: .5em .3em;
+    min-width: 90%;
+    height: 2.5em;
+    text-align: center;
+}
+
+.auth__submit-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.auth__submit-container input{    
+    font-size: var(--sub-title-font-size);
+    font-weight: var(--sub-title-font-weight);
+    width: 60%;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+
+/*=============== LOGIN ===============*/
+
+
+/*=============== SIGNUP ===============*/
+
+
+/*=============== ANIMATIONS ===============*/
+.hidde{
+    position: absolute;
+    transform: translateY(200%);
+    width: 100%;
+}
+
+.remove{
+    display: none;
+}
+
+
+
+
+
+
+
