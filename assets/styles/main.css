@@ -31,7 +31,7 @@
 
 .auth__selectSignup, .auth__selectLogin{
     position: absolute;
-    top: 5%;
+    top: 2%;
     right: 5%;
     display: flex;
     align-self: flex-end;
@@ -80,6 +80,7 @@
     min-width: 90%;
     height: 2.5em;
     text-align: center;
+    padding-left: 2em;
 }
 
 .auth__submit-container{
@@ -88,6 +89,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
+    cursor: pointer;
 }
 
 .auth__submit-container input{    
@@ -98,12 +100,8 @@
     padding: 1rem 0;
     border-radius: 10px;
     background-color: var(--secondary-color);
+    cursor: pointer;
 }
-
-/*=============== LOGIN ===============*/
-
-
-/*=============== SIGNUP ===============*/
 
 
 /*=============== ANIMATIONS ===============*/
@@ -119,6 +117,32 @@
 
 
 
+/*=============== RESPONSIVE ===============*/
+@media screen and (min-width: 1100px) {
+    .auth{
+        flex-direction: row;
+        padding: 0 4rem 0 0;
+    }
+
+    .auth__banner{
+        max-width: 55%;
+        justify-content: space-around;
+    }
+
+    .auth__section{
+        width: 100%;
+        align-self: self-end;
+    }
+
+    .remove{
+        display: block;
+    }
+
+    .auth__input-container, .auth__submit-container{
+        margin-top: 10rem;
+    }
+
+}
 
 
 
