@@ -4,7 +4,7 @@ The following project contains a simple form written in HTML, CSS and Javascript
 ## Features
 
 * Full responsive
-* HTML, CSS, JavaScript
+* HTML, CSS, and JavaScript
 * Minimalist Design
 
 ## Design
